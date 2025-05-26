@@ -6,12 +6,12 @@
 This is a simple, responsive personal portfolio website built using **HTML** and **CSS**. It showcases my projects, skills, and contact information — designed for both desktop and mobile users.
 
 📁 Project Structure
-portfolio/
-├── index.html # Main webpage
-├── style.css # Styling for the website
-├── images.jpeg # Logo / favicon image
-├── i3.jpeg # Profile photo
-└── README.md # Project information
+portfolio
+-index.html # Main webpage
+-style.css # Styling for the website
+-images.jpeg # Logo / favicon image
+-i3.jpeg # Profile photo
+README.md # Project information
 
 ✨ Features
 - Fully responsive design
