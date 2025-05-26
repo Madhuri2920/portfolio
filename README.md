@@ -11,7 +11,7 @@ portfolio
 -style.css # Styling for the website
 -images.jpeg # Logo / favicon image
 -i3.jpeg # Profile photo
-README.md # Project information
+-README.md # Project information
 
 ✨ Features
 - Fully responsive design
