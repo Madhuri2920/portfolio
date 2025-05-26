@@ -1,0 +1,145 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+  padding: 0 20px;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007acc;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #e0f7fa;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #007acc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* About */
+.about {
+  padding: 40px 0;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.about-content img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+/* Skills */
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.skills li {
+  background: #007acc;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+/* Projects */
+.projects ul {
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.projects li {
+  padding: 5px 0;
+}
+
+/* Contact */
+.contact p a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  padding: 20px 0;
+  text-align: center;
+  background: #e3f2fd;
+}
+
+footer .social a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007acc;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero h2 {
+    font-size: 2em;
+  }
+}
